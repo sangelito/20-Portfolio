@@ -2,8 +2,8 @@
 import "./App.css";
 //import main page from ./pages [still need to create pages]
 import Nav from "./components/Navigation";
-import AboutMe from "../src/pages/AboutMe";
-import Contact from "../src/pages/Contact";
+// import AboutMe from "../src/pages/AboutMe";
+// import Contact from "../src/pages/Contact";
 import React, { useState } from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 

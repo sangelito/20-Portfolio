@@ -12,3 +12,7 @@ import {
 import { Link } from "react-router-dom";
 
 import ProfilePic from "../assets/steph.jpg";
+
+export default function AboutMe() {
+}
+          
