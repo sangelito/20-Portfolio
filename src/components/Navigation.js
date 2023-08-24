@@ -16,6 +16,25 @@ function Nav({ setCurrentPage, currentPage, pages }) {
           >
             <i className="fas fa-bars"></i>
           </button>
+          <div className="collapse navbar-collapse" id="navbarExample01">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li className="nav-item active">
+                <a
+                  aria-current="page"
+                  href="#aboutme"
+                  onClick={() => setCurrentPage(pages[0])}
+                  className={
+                    currentPage === "AboutMe" ? "nav-item active" : "nav-link"
+                  }
+                >
+                  About Me
+                </a>
+              </li>
+
+              
+                </ul>
+          </div>
           </div>
             </nav>
         </header>
