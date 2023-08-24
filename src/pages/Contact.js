@@ -52,7 +52,6 @@ export default function Contact() {
         <MDBCardBody>
           <MDBCardTitle>Contact Me</MDBCardTitle>
           <MDBCardText>angelitostephanie@gmail.com</MDBCardText>
-        </MDBCardBody>
         <span>
           <a href="https://www.linkedin.com/in/stephanie-angelito-33816322b/">LinkedIn {"   "}</a>
         </span>
@@ -98,6 +97,9 @@ export default function Contact() {
           </div>
           <p>{errorMessage}</p>
         </div>
+        <MDBBtn href="#">Submit</MDBBtn>
+        </MDBCardBody>
+        <MDBCardFooter>Look forward to hearing from you! </MDBCardFooter>
     </MDBCard>
   );
 }
