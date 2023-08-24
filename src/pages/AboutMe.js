@@ -48,6 +48,7 @@ export default function AboutMe() {
                 <br />
               </p>
             </div>
+            
           </div>
         </div>
       );
