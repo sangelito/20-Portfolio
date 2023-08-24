@@ -21,3 +21,29 @@ import {
 } from "mdb-react-ui-kit";
 import "./pages.css";
 
+export default function Contact() {
+  const[errorMessage, setErrorMessage] = useState("");
+  const handleBlur = (e) => {
+    if (e.target.name === "name") {
+      if (!validateUserName(e.target.value)) {
+        setErrorMessage("Username required");
+      } else {
+        setErrorMessage("");
+      }
+    }
+    if (e.target.name === "message") {
+      if (!validateMessage(e.target.value)) {
+        setErrorMessage("Message required");
+      } else {
+        setErrorMessage("");
+      }
+    }
+    if (e.target.name === "email") {
+      if (!validateEmail(e.target.value)) {
+        setErrorMessage("A valid email is required");
+      } else {
+        setErrorMessage("");
+      }
+    }
+  };
+}

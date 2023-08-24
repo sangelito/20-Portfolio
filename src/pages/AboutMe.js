@@ -33,9 +33,9 @@ export default function AboutMe() {
                   fontSize: "20px",
                 }}
               >
-               Hello! I'm Stephanie an aspiring software developer 
+               Hello! My name is Stephanie Angelito an aspiring software developer 
                 <br />
-                Email me at laurakam91@gmail.com
+                Email me at angelitostephanie@gmail.com
                 <br />
                 <span>
                   <a href="https://github.com/sangelito">GitHub {"   "} </a>
