@@ -10,3 +10,5 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
+
+import ProfilePic from "../assets/steph.jpg";
