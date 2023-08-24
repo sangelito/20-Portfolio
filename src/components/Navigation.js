@@ -46,7 +46,19 @@ function Nav({ setCurrentPage, currentPage, pages }) {
                   Portfolio
                 </a>
               </li>
-              
+
+              <li className="nav-item">
+                <a
+                  href="#contact"
+                  onClick={() => setCurrentPage(pages[2])}
+                  className={
+                    currentPage === "Contact" ? "nav-item active" : "nav-link"
+                  }
+                >
+                  Contact
+                </a>
+              </li>
+
                 </ul>
           </div>
           </div>
