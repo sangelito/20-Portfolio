@@ -20,7 +20,7 @@ export default function Footer() {
               role="button"
               data-mdb-ripple-color="dark"
             >
-              <i classNames="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
             {/* <!-- Github --> */}
             <a
