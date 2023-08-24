@@ -26,3 +26,4 @@ function PortfolioContainer({ currentPage }) {
         </div>
       );
 }
+export default PortfolioContainer;
