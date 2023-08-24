@@ -46,4 +46,16 @@ export default function Contact() {
       }
     }
   };
+  return (
+    <MDBCard alignment="center">
+      <MDBCardHeader></MDBCardHeader>
+        <MDBCardBody>
+          <MDBCardTitle>Contact Me</MDBCardTitle>
+          <MDBCardText>angelitostephanie@gmail.com</MDBCardText>
+        </MDBCardBody>
+        <span>
+          <a href="https://www.linkedin.com/in/stephanie-angelito-33816322b/">LinkedIn {"   "}</a>
+        </span>
+    </MDBCard>
+  );
 }
