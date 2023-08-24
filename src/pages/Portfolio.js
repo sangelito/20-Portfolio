@@ -19,4 +19,10 @@ function PortfolioContainer({ currentPage }) {
           return <AboutMe />;
       }
     }
+
+    return (
+        <div>
+          <div>{renderPage()}</div>
+        </div>
+      );
 }
