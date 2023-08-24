@@ -56,6 +56,48 @@ export default function Contact() {
         <span>
           <a href="https://www.linkedin.com/in/stephanie-angelito-33816322b/">LinkedIn {"   "}</a>
         </span>
+        <div className="contactMargin">
+          <MDBRow className="g-3 align-items-center">
+            <MDBInput
+              wrapperClass="col-auto"
+              label="First and Last Name"
+              type="text"
+              id="formTextExample2"
+              aria-describedby="textExample2"
+              name="name"
+              onBlur={handleBlur}
+            />
+            <MDBCol size="auto">
+              <span id="textExample2" className="form-text">
+              </span>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow className="g-3 align-items-center">
+            <MDBInput
+              wrapperClass="col-auto"
+              label="Email"
+              type="text"
+              id="formTextExample2"
+              aria-describedby="textExample2"
+              name="email"
+              onBlur={handleBlur}
+            />
+            <MDBCol size="auto">
+              <span id="textExample2" className="form-text">
+              </span>
+            </MDBCol>
+          </MDBRow>
+          <div>
+            <MDBTextArea
+              label="Message"
+              id="textAreaExample"
+              rows={5}
+              name="message"
+              onBlur={handleBlur}
+            />
+          </div>
+          <p>{errorMessage}</p>
+        </div>
     </MDBCard>
   );
 }
