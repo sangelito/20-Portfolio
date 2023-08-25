@@ -4,8 +4,15 @@ import "./pages.css";
 
 export default function Portfolio() {
     return (
-        <div>
-            
+        <div class="row row-cols-1 row-cols-sm-3 g-4">
+            <div className="col" >
+            <img
+            className="imgScreenshot"
+            src={}
+            class="card-img-top"
+            alt=""
+          />
+            </div>
         </div>
     );
 }
