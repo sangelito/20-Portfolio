@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages";
+// import "../pages";
 import {
   MDBCard,
   MDBCardBody,
