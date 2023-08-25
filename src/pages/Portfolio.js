@@ -6,6 +6,7 @@ import weatherdashboard from "../assets/Weather Dashboard.png";
 import codequiz from "../assets/Code Quiz.png"
 import notetaker from "../assets/Note Taker.png"
 import employeetracker from "../assets/Employee Tracker.png"
+import svglogo from "../assets/SVG Logo Maker.png"
 
 export default function Portfolio() {
     return (
@@ -92,6 +93,28 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://drive.google.com/file/d/1oMcIpZJV1huluADxfNNvGkOcuoWrZNGL/view"
+                className="btn btn-primary"
+              >
+                Walkthrough
+              </a>
+          </div>
+            </div>
+            <div className="col" >
+            <img
+            className="imgScreenshot"
+            src={svglogo}
+            class="card-img-top"
+            alt="SVG Logo Maker"
+          />
+          <div className="d-flex justify-content-evenly">
+          <a
+                href="https://github.com/sangelito/12-Employee-Tracker.git"
+                className="btn btn-primary"
+              >
+                Repo
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1mveT_YQPtDw13R1bb62pGD_v-GMhThAH/view"
                 className="btn btn-primary"
               >
                 Walkthrough
