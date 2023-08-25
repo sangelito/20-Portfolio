@@ -13,6 +13,20 @@ export default function Portfolio() {
             class="card-img-top"
             alt="Weather Dashboard"
           />
+          <div className="d-flex justify-content-evenly">
+          <a
+                href="https://github.com/sangelito/06-WeatherDashboard.git"
+                className="btn btn-primary"
+              >
+                Repo
+              </a>
+              <a
+                href="https://sangelito.github.io/06-WeatherDashboard/"
+                className="btn btn-primary"
+              >
+                Website
+              </a>
+          </div>
             </div>
         </div>
     );
