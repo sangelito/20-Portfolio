@@ -8,6 +8,7 @@ import notetaker from "../assets/Note Taker.png"
 import employeetracker from "../assets/Employee Tracker.png"
 import svglogo from "../assets/SVG Logo Maker.png"
 import workday from "../assets/Workday Scheduler.png"
+import socialmedia from "../assets/social media.png"
 
 export default function Portfolio() {
     return (
@@ -141,6 +142,28 @@ export default function Portfolio() {
                 className="btn btn-primary"
               >
                 Website
+              </a>
+          </div>
+            </div>
+            <div className="col" >
+            <img
+            className="imgScreenshot"
+            src={socialmedia}
+            class="card-img-top"
+            alt="Social Network API"
+          />
+          <div className="d-flex justify-content-evenly">
+          <a
+                href="https://github.com/sangelito/Social-Network-API.git"
+                className="btn btn-primary"
+              >
+                Repo
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1zFmTrQ7IT5zuL3ML6K9XyB2jT1DeU5WH/view"
+                className="btn btn-primary"
+              >
+                Walkthrough
               </a>
           </div>
             </div>
