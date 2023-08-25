@@ -5,6 +5,7 @@ import "./pages.css";
 import weatherdashboard from "../assets/Weather Dashboard.png";
 import codequiz from "../assets/Code Quiz.png"
 import notetaker from "../assets/Note Taker.png"
+import employeetracker from "../assets/Employee Tracker.png"
 
 export default function Portfolio() {
     return (
@@ -72,6 +73,28 @@ export default function Portfolio() {
                 className="btn btn-primary"
               >
                 Website
+              </a>
+          </div>
+            </div>
+            <div className="col" >
+            <img
+            className="imgScreenshot"
+            src={employeetracker}
+            class="card-img-top"
+            alt="Employee Tracker"
+          />
+          <div className="d-flex justify-content-evenly">
+          <a
+                href="https://github.com/sangelito/12-Employee-Tracker.git"
+                className="btn btn-primary"
+              >
+                Repo
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1oMcIpZJV1huluADxfNNvGkOcuoWrZNGL/view"
+                className="btn btn-primary"
+              >
+                Walkthrough
               </a>
           </div>
             </div>
