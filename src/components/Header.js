@@ -18,7 +18,7 @@ export default function Header() {
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3">Stephanie Angelito</h1>
-
+              <h4 className="mb-3">Learning to code one project at a time </h4>
               <a
                 className="btn btn-outline-light btn-lg"
                 to="../pages/Contact.js"
