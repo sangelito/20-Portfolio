@@ -19,13 +19,13 @@ export default function Header() {
             <div className="text-white">
               <h1 className="mb-3">Stephanie Angelito</h1>
 
-              {/* <a
+              <a
                 className="btn btn-outline-light btn-lg"
-                to="./contact.js"
+                to="../pages/Contact.js"
                 role="button"
               >
                 Let's Talk! 
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
