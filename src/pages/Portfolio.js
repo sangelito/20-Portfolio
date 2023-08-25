@@ -4,6 +4,7 @@ import "./pages.css";
 
 import weatherdashboard from "../assets/Weather Dashboard.png";
 import codequiz from "../assets/Code Quiz.png"
+import notetaker from "../assets/Note Taker.png"
 
 export default function Portfolio() {
     return (
@@ -46,6 +47,28 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://sangelito.github.io/04-Code-Quiz/"
+                className="btn btn-primary"
+              >
+                Website
+              </a>
+          </div>
+            </div>
+            <div className="col" >
+            <img
+            className="imgScreenshot"
+            src={notetaker}
+            class="card-img-top"
+            alt="Note Taker"
+          />
+          <div className="d-flex justify-content-evenly">
+          <a
+                href="https://github.com/sangelito/11-Note-Taker.git"
+                className="btn btn-primary"
+              >
+                Repo
+              </a>
+              <a
+                href="https://serene-wave-59301-034ef90e875c.herokuapp.com/notes"
                 className="btn btn-primary"
               >
                 Website
