@@ -9,6 +9,7 @@ import employeetracker from "../assets/Employee Tracker.png"
 import svglogo from "../assets/SVG Logo Maker.png"
 import workday from "../assets/Workday Scheduler.png"
 import socialmedia from "../assets/social media.png"
+import petpost from "../assets/Pet Posts.png"
 
 export default function Portfolio() {
     return (
@@ -148,13 +149,13 @@ export default function Portfolio() {
             <div className="col" >
             <img
             className="imgScreenshot"
-            src={socialmedia}
+            src={petpost}
             class="card-img-top"
             alt="Social Network API"
           />
           <div className="d-flex justify-content-evenly">
           <a
-                href="https://github.com/sangelito/Social-Network-API.git"
+                href="https://github.com/sangelito/Pet-Posts"
                 className="btn btn-primary"
               >
                 Repo
@@ -163,7 +164,7 @@ export default function Portfolio() {
                 href="https://drive.google.com/file/d/1zFmTrQ7IT5zuL3ML6K9XyB2jT1DeU5WH/view"
                 className="btn btn-primary"
               >
-                Walkthrough
+                Website 
               </a>
           </div>
             </div>
